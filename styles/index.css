@@ -1,10 +1,6 @@
 @import "_base.css";
 @import "_colors.css";
 
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .outer-grid {
   display: grid;
   grid-template-rows: 80px auto 80px;

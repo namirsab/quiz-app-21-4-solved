@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/namirsab/quiz-app-21-4-solved/issues"
   },
-  "homepage": "https://github.com/namirsab/quiz-app-21-4-solved#readme"
+  "homepage": "https://github.com/namirsab/quiz-app-21-4-solved#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.1"
+  }
 }

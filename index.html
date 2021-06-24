@@ -18,55 +18,75 @@
       <h1 class="header__title">Quiz App</h1>
     </header>
     <main class="content">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate neque
-      repellendus qui beatae officia voluptates impedit error, aut vel! Mollitia
-      reiciendis cupiditate aut excepturi odio itaque, fugiat ipsam
-      necessitatibus et! Nisi nulla sequi neque id perspiciatis magni earum iste
-      eum, possimus deleniti iure similique molestiae, commodi numquam
-      exercitationem nihil quia minima! Neque cum quisquam nulla vitae saepe ea
-      alias repellendus. Necessitatibus cupiditate minus, aliquam iure rem,
-      eligendi obcaecati numquam reprehenderit praesentium ad natus. Facere
-      accusantium sed est tempora in ratione repellat, necessitatibus quas
-      repellendus perferendis fugiat nostrum voluptatum! Velit, a? Eos sed,
-      molestiae quam debitis illo hic error a, iusto minima quas eveniet qui
-      voluptate reiciendis perspiciatis laboriosam libero numquam cum accusamus
-      at? Neque provident natus aspernatur nihil vel doloremque! Fugit sint
-      atque ducimus, corporis provident, modi asperiores voluptates dicta
-      voluptatum consequatur deleniti nemo illo aperiam non quibusdam facere
-      maiores dolorum magnam dolore, velit repellat. Quaerat qui quisquam
-      dolorem molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing
-      elit. Enim incidunt veritatis natus temporibus sed quasi sequi, laudantium
-      vero obcaecati odit dolore aut ipsum quibusdam soluta, assumenda sint
-      impedit at repellendus. In, officiis sit. Sapiente, fuga unde delectus
-      quod veniam tempore temporibus non maiores distinctio at pariatur enim
-      impedit rerum et fugit dolor dicta laborum totam saepe quas ratione
-      voluptatibus id! Rerum nam numquam nobis esse sunt voluptatem vel ut
-      architecto at rem repellendus fugiat cumque eligendi cupiditate voluptas
-      impedit natus accusamus voluptatibus, voluptatum magni quo molestias.
-      Perspiciatis quo corrupti cupiditate! Minus velit temporibus
-      necessitatibus vero, debitis ipsam, harum ad accusantium molestiae, alias
-      tempore dolorum nam quis odit dolores. Sunt consequatur sint ullam unde
-      molestiae velit tempore sequi tenetur ducimus porro. Soluta, id
-      distinctio? Obcaecati pariatur, expedita nisi nulla nobis voluptate
-      debitis, quibusdam numquam explicabo eius sint error cupiditate soluta
-      magni recusandae dolorem accusamus molestiae, illum labore mollitia
-      deleniti deserunt saepe? Repellendus nihil possimus a nesciunt accusamus!
-      Neque, voluptas dicta labore iure sequi natus optio quasi perferendis.
-      Accusantium blanditiis fugiat, aut enim in maiores modi, necessitatibus,
-      reprehenderit adipisci dolor numquam impedit. Sint ipsum necessitatibus
-      hic natus cupiditate? Perferendis debitis dolore corporis qui temporibus
-      rem magni voluptatibus, maiores eveniet necessitatibus ea amet, magnam
-      laborum est! Quis, cum. Voluptatibus reiciendis quidem deserunt saepe!
-      Porro reiciendis voluptate neque tempora aperiam autem doloremque? Libero,
-      ratione sapiente unde quae numquam at repellat recusandae architecto
-      placeat sit, officia pariatur quisquam asperiores id. Aspernatur ducimus
-      nobis ipsa necessitatibus. Veritatis omnis repudiandae tempore, neque
-      provident expedita architecto odio ea, illum natus magni nostrum molestias
-      doloribus sed itaque distinctio ipsam cupiditate quos! Labore possimus,
-      error nihil est corporis explicabo officiis. Maxime odit, fugiat sit ipsam
-      tempora impedit. Quibusdam sequi id itaque minus dicta! Voluptatum
-      consequatur autem ratione explicabo excepturi quaerat, id necessitatibus
-      corrupti itaque ipsam assumenda reiciendis non reprehenderit error!
+      <section class="quiz-card">
+        <div class="quiz-card__header">
+          <h2>Question:</h2>
+          <i
+            class="
+              quiz-card__bookmark quiz-card__bookmark--toggled
+              fas
+              fa-bookmark
+            "
+          ></i>
+        </div>
+        <p class="quiz-card__question">What is the capital city of Germany?</p>
+        <button class="quiz-card__button">Show Answer</button>
+        <div class="quiz-card__tags">
+          <div class="quiz-card__tag">#Geography</div>
+          <div class="quiz-card__tag">#Germany</div>
+        </div>
+      </section>
+      <section class="quiz-card">
+        <div class="quiz-card__header">
+          <h2>Question:</h2>
+          <i class="quiz-card__bookmark fas fa-bookmark"></i>
+        </div>
+        <p class="quiz-card__question">
+          What is the answer to life and everything?
+        </p>
+        <button class="quiz-card__button">Show Answer</button>
+        <div class="quiz-card__tags">
+          <div class="quiz-card__tag">#Meta</div>
+          <div class="quiz-card__tag">#Movies</div>
+          <div class="quiz-card__tag">#Books</div>
+        </div>
+      </section>
+      <section class="quiz-card quiz-card--opened">
+        <div class="quiz-card__header">
+          <h2>Question:</h2>
+          <i class="quiz-card__bookmark fas fa-bookmark"></i>
+        </div>
+        <p class="quiz-card__question">What is the capital city of Spain?</p>
+        <button class="quiz-card__button quiz-card__button--toggled">
+          Hide Answer
+        </button>
+        <p class="quiz-card__answer">Madrid</p>
+        <div class="quiz-card__tags">
+          <div class="quiz-card__tag">#Geography</div>
+          <div class="quiz-card__tag">#Spain</div>
+          <div class="quiz-card__tag">#Europe</div>
+        </div>
+      </section>
+      <section class="quiz-card">
+        <div class="quiz-card__header">
+          <h2>Question:</h2>
+          <i
+            class="
+              quiz-card__bookmark quiz-card__bookmark--toggled
+              fas
+              fa-bookmark
+            "
+          ></i>
+        </div>
+        <p class="quiz-card__question">
+          Which tech do we use to build the structure of a website?
+        </p>
+        <button class="quiz-card__button">Show Answer</button>
+        <div class="quiz-card__tags">
+          <div class="quiz-card__tag">#Web-Development</div>
+          <div class="quiz-card__tag">#Technology</div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <nav class="nav">

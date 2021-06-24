@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app-21-4-solved",
+  "version": "1.0.0",
+  "description": "My quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namirsab/quiz-app-21-4-solved.git"
+  },
+  "author": "Namir Sayed-Ahmad Baraza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namirsab/quiz-app-21-4-solved/issues"
+  },
+  "homepage": "https://github.com/namirsab/quiz-app-21-4-solved#readme"
+}

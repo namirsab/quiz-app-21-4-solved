@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App: New Quiz</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="outer-grid">
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
+    </header>
+    <main class="content">
+      <form>
+        <label for="question">Question</label>
+        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+        <label for="answer">Answer</label>
+        <textarea name="answer" id="answer" cols="30" rows="10"></textarea>
+        <label for="tags">Tags</label>
+        <textarea name="tags" id="tags" cols="30" rows="10"></textarea>
+        <button type="submit">Create</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <nav class="nav">
+        <a class="nav__item" href="/index.html"><i class="fas fa-home"></i></a>
+        <a class="nav__item" href="/bookmarks.html"
+          ><i class="fas fa-bookmark"></i
+        ></a>
+        <a class="nav__item nav__item--active" href="/create.html"
+          ><i class="fas fa-plus-square"></i
+        ></a>
+        <a class="nav__item" href="/profile.html"
+          ><i class="fas fa-user-circle"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
+</html>
